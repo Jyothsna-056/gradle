@@ -1,9 +1,5 @@
 package tests;
 
-
-
-
-
 import builder.OrderBuilder;
 import factory.OrderFactory;
 import modles.Order;
