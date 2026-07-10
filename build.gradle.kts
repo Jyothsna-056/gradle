@@ -3,6 +3,7 @@ import org.gradle.api.tasks.testing.Test
 
 plugins {
     java
+
 }
 
 group = "com.ust.sdet"
