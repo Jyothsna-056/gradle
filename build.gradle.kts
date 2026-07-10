@@ -16,6 +16,7 @@ val extentCucumberAdapterVersion = "1.14.0"
 val slf4jVersion = "2.0.17"
 val testcontainersVersion = "2.0.5"
 val flywayVersion = "10.22.0"
+val postgresqlVersion = "42.7.4"
 val mysqlVersion = "9.3.0"
 
 repositories {
@@ -42,9 +43,12 @@ dependencies {
     testImplementation("org.testcontainers:testcontainers-junit-jupiter:$testcontainersVersion")
     testImplementation("org.testcontainers:testcontainers-mysql")
     testImplementation("org.flywaydb:flyway-core:$flywayVersion")
-    testImplementation("org.flywaydb:flyway-mysql:$flywayVersion")
-    testImplementation("com.mysql:mysql-connector-j:$mysqlVersion")
+//    testImplementation("org.flywaydb:flyway-mysql:$flywayVersion")
+//    testImplementation("com.mysql:mysql-connector-j:$mysqlVersion")
+    testImplementation("org.flywaydb:flyway-database-postgresql:${flywayVersion}")
+    testImplementation("org.postgresql:postgresql:${postgresqlVersion}")
     testImplementation("io.qameta.allure:allure-junit5:${allureVersion}")
+    testImplementation("org.testcontainers:testcontainers-postgresql:${testcontainersVersion}")
 }
 
 tasks.withType<JavaCompile>().configureEach {
