@@ -58,8 +58,8 @@ jobs:
             -Ddb.url=jdbc:postgresql://localhost:5432/testdb
             -Ddb.user=postgres
             -Ddb.password=postgres
-      - name: Run Order Test
-        run: ./gradlew AllureReportInsightTest --no-configuration-cache
+      - name: Run AllureReportInsightTest Test
+        run: ./gradlew AllureReportInsightTest
 
       - name: Checkout gh-pages branch
         if: always()
