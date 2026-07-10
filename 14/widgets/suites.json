@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"bda00e6a77ac64a76260de0d5df7c6fd","name":"tests.AllureReportInsightTest","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"dec53dd3f0fed6c4659cdf7982877b29","name":"tests.OrderTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}}]}

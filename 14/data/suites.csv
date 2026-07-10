@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","116","createsOrder()","","2026-07-10","passed","2026-07-10","","tests.OrderTest","tests.OrderTest","createsOrder"
+"","55","countsOrders()","","2026-07-10","passed","2026-07-10","","tests.OrderTest","tests.OrderTest","countsOrders"
+"","45","categoriesSpecificFlakyRuleBeforeGenericBuckets()","","2026-07-10","failed","2026-07-10","","tests.AllureReportInsightTest","tests.AllureReportInsightTest","categoriesSpecificFlakyRuleBeforeGenericBuckets"
+"","42","findsOrderBySku()","","2026-07-10","passed","2026-07-10","","tests.OrderTest","tests.OrderTest","findsOrderBySku"
+"","92","countsOnlyShippedOrders()","","2026-07-10","passed","2026-07-10","","tests.OrderTest","tests.OrderTest","countsOnlyShippedOrders"
